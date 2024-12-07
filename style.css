@@ -1,0 +1,17 @@
+main content h1 {
+    color: red;
+}
+.main h1 {
+    color: blue
+}
+.main .content h1{
+    color: green;
+}
+
+#main .content h1 {
+    color: orange;
+}
+
+body main.main content.content h1 {
+    color: yellow;
+}
